@@ -4,6 +4,7 @@
 npm info @xxx/xxx-xxx 查看某个包的信息
 npm info @xxx/xxx-xxx versions 查看某个包的信息所有版本
 
+newversion: 直接给一个版本号；
 
 major：主版本号
 
@@ -17,6 +18,24 @@ prepatch：预备次版本
 
 prerelease：预发布版本
 
-npm version major/minor/patch
-git push origin v2.4.0
+npm version <newversion> /major/minor/patch
+git push origin v2.x.x
 npm publish
+/ npm publish —-tag next 发布到指定的分支
+
+
+npm set registry http://npm.xxx-int.com
+npm adduser --registry http://npm.xxx-int.com
+
+npm repo axios 打开远端的某个仓库 
+
+# node 版本管理 
+nvm ls 
+nvm use v10.x.x
+
+
+# git 常用指令
+
+git status
+git add ./filename 
+git commit -m 'some description'
