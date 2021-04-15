@@ -32,6 +32,8 @@ npm repo axios 打开远端的某个仓库
 
 npm link 调试 1.先在抽出来的那个包里头 执行 npm link 会将这个包的指向从 /usr/local/lib/node_modules/@xxxx/npm-components -> /Users/zzy/work/npm-components 2.在应用 npm-components 的项目里也执行 npm link npm-components-name 就可以在线调试了
 
+需要更更新的时候需要在 npm-components 包里重新执行 npm run build
+
 # node 版本管理
 
 nvm ls
